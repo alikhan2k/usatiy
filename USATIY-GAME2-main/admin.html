@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Админ-панель</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Управление вариантами</h1>
+    <input type="text" id="newOption" placeholder="Новый вариант">
+    <button onclick="addOption()">Добавить</button>
+
+    <h2>Список вариантов</h2>
+    <div id="options"></div>
+
+    <h2>История голосований</h2>
+    <button onclick="resetVotes()">Сбросить все голоса</button>
+    <div id="votes"></div>
+
+    <script src="admin.js"></script>
+</body>
+</html>
